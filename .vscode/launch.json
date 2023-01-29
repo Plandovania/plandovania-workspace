@@ -1,0 +1,19 @@
+{
+	"configurations": [
+		{
+			"name": "Python: Randovania",
+			"type": "python",
+			"request": "launch",
+			"module": "randovania",
+			"justMyCode": false,
+			"args": [
+				"gui",
+				"--preview",
+				"main"
+			],
+			"preLaunchTask": "Build UI",
+			"cwd": "${workspaceFolder}/plandovania"
+		}
+	],
+	"compounds": []
+}

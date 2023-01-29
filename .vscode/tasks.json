@@ -1,0 +1,32 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Prepare VEnv",
+			"type": "shell",
+			"command": ". ${workspaceFolder}/Scripts/Prepare-VirtualEnv.ps1"
+		},
+		{
+			"label": "Build UI",
+			"type": "shell",
+			"command": ". ./venv/scripts/activate.ps1 && python setup.py build_ui",
+			"options": {
+				"cwd": "${workspaceFolder}/plandovania"
+			}
+		},
+		{
+			"label": "Update Human-Readable Data",
+			"type": "shell",
+			"command": ". ./venv/scripts/activate.ps1 && python randovania database --game dread update-human-readable",
+			"options": {
+				"cwd": "${workspaceFolder}/plandovania"
+			}
+		},
+		{
+			"label": "Create Release",
+			"type": "shell",
+			"command": ". ${workspaceFolder}/Scripts/Create-Release.ps1",
+			"problemMatcher": []
+		}
+	]
+}

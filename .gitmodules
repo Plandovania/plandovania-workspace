@@ -1,0 +1,9 @@
+[submodule "plandovania"]
+	path = plandovania
+	url = https://github.com/Plandovania/plandovania.git
+[submodule "open-dread-rando"]
+	path = open-dread-rando
+	url = https://github.com/Plandovania/open-dread-rando.git
+[submodule "dread-libraries"]
+	path = dread-libraries
+	url = https://github.com/duncathan/dread-libraries.git
