@@ -9,6 +9,7 @@
 		"Blackboard",
 		"CurrentScenario",
 		"CurrentScenarioID",
+		"DamagePlants",
 		"GUI",
 		"GUILib",
 		"Init",
@@ -19,6 +20,7 @@
 		"TEMPLATE",
 		"class",
 		"exclude_function_from_logging",
+		"logiccallbacks",
 		"logutil",
 		"pop_debug_print_override",
 		"push_debug_print_override",
@@ -30,7 +32,7 @@
 		"s060_quarantine",
 		"s070_basesanc",
 		"s080_shipyard",
-		"s090_skybase",
+		"s090_skybase"
 	],
 	"python.defaultInterpreterPath": "./plandovania/venv/Scripts/python.exe"
 }
