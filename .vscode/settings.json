@@ -32,7 +32,8 @@
 		"s060_quarantine",
 		"s070_basesanc",
 		"s080_shipyard",
-		"s090_skybase"
+		"s090_skybase",
+		"utils"
 	],
 	"python.defaultInterpreterPath": "./plandovania/venv/Scripts/python.exe"
 }
